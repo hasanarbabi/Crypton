@@ -1,0 +1,116 @@
+@font-face {
+    src: url(../assets/fonts/IRANSansWeb.ttf);
+    font-family: iransans;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    direction: rtl;
+    font-family: iransans;
+    background-color: #331867;
+}
+
+.firstpage {
+    height: 100vh;
+    background-image: url(../assets/images/exchange-01.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 20%;
+    background-position-y: 20%;
+}
+
+.login {
+    position: absolute;
+    top: 40vh;
+    right: 10%;
+    height: 100px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, .3);
+    width: 400px;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box-b {
+    background-color: orange;
+    border-radius: 20px;
+    margin-bottom: 0;
+
+}
+
+.box-t {
+    background-color: #36cc95;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+.thirdpage {
+    height: 100vh;
+}
+
+.fifthpage {
+    height: 100vh;
+    width: 98%;
+}
+
+.bgi {
+    background-image: url(../assets/images/chart-01.png);
+    height: 70vh;
+    margin-top: 5%; 
+}
+
+.einput {
+    background: transparent;
+    border: none;
+    
+}
+
+.bginput {
+    background-color: rgba(161, 35, 126, .6);
+    border-radius: 50px;
+    border: 1px solid #a1237e;
+}
+
+.einput:focus {
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+
+
+.bginput .btn {
+    background-color: #a1237e;
+    border-radius: 50px;
+    color: white;
+}
+
+.mb-10 {
+    margin-bottom: 100px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .firstpage {
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .login {
+        top: 60vh;
+        right: 0;
+        left: 0;
+    }
+
+   
+
+}
